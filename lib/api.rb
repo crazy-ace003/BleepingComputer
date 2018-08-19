@@ -2,7 +2,6 @@ require 'mechanize'
 module Bleeping
   class << self
     public
-    #/html/body/div[1]/section[3]/div/div/div[1]/div/div[1]/div[1]/div[2]/ul/li[1]
     Address = "https://bleepingcomputer.com"
     Agent   = Mechanize.new
     Page    = Agent.get(Address)
